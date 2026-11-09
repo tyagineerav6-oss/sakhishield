@@ -1,0 +1,206 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNIxnohjx2ihMFw5Ra3WoUG",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/tyagineerav6-oss/sakhishield/blob/main/Practice\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "S65zq6yXN52s",
+        "outputId": "6f764b7a-7ab6-4547-a1d5-09b9ee3e8067"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello World\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"Hello World\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = 45\n",
+        "b = 65\n",
+        "c = b // a\n",
+        "print(c)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "h4iLBGXiOD4T",
+        "outputId": "3ae4ad9e-3150-4ab5-b881-914c795123b8"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "number = int(input(\"Enter the number\"))\n",
+        "if number % 2 == 0:\n",
+        "  print(\"number is even number.\")\n",
+        "else:\n",
+        "  print(\"number is odd number.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GOCD_bQcOdij",
+        "outputId": "f8b75396-c83d-4886-c7dd-b9758df325ec"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the number87897679679886\n",
+            "number is even number.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = float(input(\"enter the first number:\"))\n",
+        "num2 = float(input(\"enter the second number:\"))\n",
+        "operation = input(\"choose an operation (+, -, *, /):\")\n",
+        "\n",
+        "if operation == \"+\":\n",
+        "    print(num1 + num2)\n",
+        "elif operation == \"-\":\n",
+        "    print(num1 - num2)\n",
+        "elif operation == \"*\":\n",
+        "    print(num1 * num2)\n",
+        "elif operation == \"/\":\n",
+        "    if num2 != 0:\n",
+        "        print(num1 / num2)oper\n",
+        "    else:\n",
+        "        print(\"error\")\n",
+        "else:\n",
+        "    print(\"invalid operator!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wTNWns1MSKuq",
+        "outputId": "0e849afd-6a5b-445a-8d59-6e360ea8baa7"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the first number:789\n",
+            "enter the second number:678960\n",
+            "choose an operation (+, -, *, /):+\n",
+            "679749.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = float(input(\"enter the first number:\"))\n",
+        "num2 = float(input(\"enter the second number:\"))\n",
+        "operation = input(\" choose an operation(+, -, *, /):\")\n",
+        "\n",
+        "if operation == \"+\":\n",
+        "  print(num1 + num2)\n",
+        "\n",
+        "elif operation == \"-\":\n",
+        "  print(num1 - num2)\n",
+        "\n",
+        "elif operation == \"*\":\n",
+        "  print(num1 * num2)\n",
+        "\n",
+        "elif operation == \"/\":\n",
+        "  if num2 != 0:\n",
+        "    print(num1 / num2)\n",
+        "  else:\n",
+        "    print(\"error\")\n",
+        "else:\n",
+        "  print(\"invalid operator\")\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "X8gyrLuQSz2q",
+        "outputId": "113109df-c77e-4976-e10f-5679dd994eb3"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the first number:89\n",
+            "enter the second number:2\n",
+            " choose an operation(+, -, *, /):*\n",
+            "178.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "jd-JhXYbUhbn"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
